@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import Estimator from './components/Estimator';
 import AdminDashboard from './components/AdminDashboard';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://cynbit-estimator-api.onrender.com/api';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('estimator');
