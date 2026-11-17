@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Estimator from './components/Estimator';
 import AdminDashboard from './components/AdminDashboard';
 
-const API_BASE = '<APNA_EXACT_RENDER_URL>/api';
+const API_BASE = 'https://cynbit-project-estimator.onrender.com/api';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('estimator');
